@@ -356,6 +356,7 @@
 	border: #49beb7 solid 10px;
 	color: #49beb7;
 	background-color: #F6D365;cursor: pointer;
+	text-decoration: none;
 }
 .myPro a:hover{
 	transition: all 0.3s;
