@@ -30,7 +30,7 @@
 	align-items: center;
 	flex-wrap:wrap;
 }
-.point{
+.pointDown{
 	position: absolute;
 	bottom: 0px;
 	width: 0px;
@@ -40,6 +40,19 @@
 	border-right: 50px solid rgba(0,0,0,0);
 	border-bottom: 50px solid rgba(0,0,0,0);
 	animation: pointFloat 1s infinite;
+	box-sizing: border-box;
+}
+.up{
+	position: absolute;
+	bottom: 0px;
+	width: 0px;
+	height: 0px;
+	border-top: 50px solid rgba(0,0,0,0);
+	border-left: 50px solid rgba(0,0,0,0);
+	border-right: 50px solid rgba(0,0,0,0);
+	border-bottom: 50px solid #c83660;
+	animation: pointFloat 1s infinite;
+	box-sizing: border-box;
 }
 @keyframes pointFloat{
 	0% {bottom: 0px;}
@@ -63,8 +76,11 @@
 	text-decoration: none;
 	color:#c83660;
 }
+.a0:hover{
+	background-color: #C83660;
+}
 .msg0 a:hover{
-	color:cornflowerblue;
+	color:#61f2f5;
 }
 /* ****************************************具体页面 */
 .p1{
